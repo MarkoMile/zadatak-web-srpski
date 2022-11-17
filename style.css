@@ -1,0 +1,24 @@
+.menuBar {
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1em;
+}
+
+.lektireList {
+  position: absolute;
+  right: 2vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1em;
+}
+
+.lektireList>button {
+  border: 5px, black;
+  text-align: center;
+  font-weight: bold;
+  height: 62px;
+  width: 100px;
+}
