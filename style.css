@@ -1,28 +1,73 @@
+html {
+  font-family: 'Times New Roman',Times, serif;
+}
+
+body {
+  margin: 0;
+  background-color: blanchedalmond;
+}
+
+main {
+  margin: 1em;
+  background-color: blanchedalmond;
+}
+
+main div {
+  background-color: chocolate;
+  color: white;
+  padding: 1em;
+}
+
+.menuBar>a{
+  text-decoration: none;
+  color: black;
+}
+
+.bookimg{
+  margin: 2em auto 2em;
+  width: 400px;
+  height: 300px;
+  display: block;
+}
+
+footer {
+  padding: 8px;
+  position:fixed;
+  bottom: 0;
+  width: 100vw;
+  background-color: chocolate;
+  color: white;
+  text-align: center;
+}
+
 .flex{
   display:flex;
 }
 
 .menuBar {
   background-color: blanchedalmond;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  gap: 1em;
+  border-style: solid;
+  border-color: chocolate;
+  border-width: .5em;
 }
 
 .lektireList {
-  position: absolute;
-  right: 2vw;
-  top: 1vw;
+  padding-top: 1em;
+  padding-bottom: 1em;
   justify-content: space-around;
   align-items: right;
   gap: 1em;
 }
 
-.lektireList>button {
-  border: 5px, black;
+.lektireList>a>button {
+  border: 1px solid black;
   text-align: center;
   font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
   height: 62px;
   width: 100px;
 }
+.lektireList>a>button:hover {
+  background-color:lightblue;
+  border: 1px solid black;
+  }
