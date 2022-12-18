@@ -23,6 +23,33 @@ h3 {
   text-align: center; 
   margin: 0;
 }
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: gray;
+}
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+td,
+th {
+  border: .2em solid chocolate;
+  text-align: center;
+  padding: 8px;
+}
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+  background-color: blanchedalmond;
+}
+th{
+  border: .2em solid chocolate;
+    text-align: center;
+    padding: 8px;
+}
 
 .menuBar>a{
   text-decoration: none;
