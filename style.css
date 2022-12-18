@@ -19,6 +19,11 @@ main div {
   padding: 1em;
 }
 
+h3 {
+  text-align: center; 
+  margin: 0;
+}
+
 .menuBar>a{
   text-decoration: none;
   color: black;
